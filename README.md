@@ -3,7 +3,7 @@ Screen lock prevention
 
 -= One liner =- cmd > powershell > 
 ```
-$wsh = New-Object -ComObject WScript.Shell; while (1) {$wsh.SendKeys('+{F15}'); Start-Sleep -seconds 59}
+$w=New-Object -Com WScript.Shell;while(1){$w.SendKeys('+{F15}');Sleep -s 59}
 ```
 
 cmd >
